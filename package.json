@@ -1,0 +1,29 @@
+{
+  "name": "currying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node": "11.12.0",
+    "nodemon": "1.18.10",
+    "ts-node": "8.0.3",
+    "typescript": "3.3.4000"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts",
+    "debug": "node --inspect --require ts-node/register app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlou006/currying.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlou006/currying/issues"
+  },
+  "homepage": "https://github.com/tlou006/currying#readme"
+}

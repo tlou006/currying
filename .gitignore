@@ -3,7 +3,7 @@
 *.js.map
 *.d.ts
 
-#gibberish
+#
 
 # Logs
 logs
